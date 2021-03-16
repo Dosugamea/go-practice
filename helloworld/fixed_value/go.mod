@@ -1,3 +1,3 @@
-module github.com/Dosugamea/go-practice/helloworld/fixed_value
+module fixed_value
 
 go 1.15
