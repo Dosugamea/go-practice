@@ -3,7 +3,7 @@ package bmi_calculator
 type BmiErrorCode uint
 
 type BmiError struct {
-	code BmiErrorCode
+	Code BmiErrorCode
 }
 
 const (
@@ -13,7 +13,7 @@ const (
 )
 
 func (e BmiError) Error() string {
-	switch e.code {
+	switch e.Code {
 	case BmiMinusValueError:
 		return "値がマイナスです"
 	case BmiTooBigValueError:
